@@ -1,6 +1,8 @@
 <%- include("partials/header") -%>
 
     <h1>Contact</h1>
-    <p><%= contactContent %></p>
-
+    <p>• <a href="mailto:<%= contactContents[0] %>">Email</a></p>
+    <p>• <a href="<%= contactContents[1] %>" target=”_blank”>LinkedIn</a></p>
+    <p>• <a href="<%= contactContents[2] %>" target=”_blank”>GitHub</a></p>
+    <p>• <a href="<%= contactContents[3] %>" target=”_blank”>Website</a></p>
 <%- include("partials/footer") -%>

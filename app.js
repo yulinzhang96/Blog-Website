@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const lodash = require("lodash");
 const date = require(__dirname + "/date.js");
 
-mongoose.connect('mongodb+srv://admin-yulin:zyllxh08221024%23GZ@cluster0-yanef.mongodb.net/blogDB', {useNewUrlParser: true});
+mongoose.connect('mongodb+srv://<username:<password>@cluster0-yanef.mongodb.net/blogDB', {useNewUrlParser: true});
 
 //mongoose.connect("mongodb://localhost:27017/blogDB", {useNewUrlParser: true});
 
